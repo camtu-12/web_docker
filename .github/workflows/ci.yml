@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: CI check
-        run: echo "CI/CD pipeline triggered on main branch"
+      - name: Run CI check
+        run: echo "CI pipeline is working"
